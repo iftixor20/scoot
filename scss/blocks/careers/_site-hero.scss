@@ -1,0 +1,43 @@
+/* SITE HERO */
+
+.site-hero{
+  padding-top: 72px;
+  padding-bottom: 72px;
+  background-image: url(../../../img/hero-bg.png),
+    url(../../../img/careers-hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.site-heading__box{
+  position: relative;
+  width: 226px;
+}
+
+.site-hero__title{
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.site-heading__box::after{
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 234px;
+  height: 63px;
+  right: -1150px;
+  bottom: -10px;
+  background-image: url(../../../img/hero-bg-oval.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

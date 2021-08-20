@@ -1,0 +1,85 @@
+/* SECTION FAQS */
+
+.faqs{
+  padding-bottom: 160px;
+}
+
+.faqs-heading__box{
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faqs-haeading{
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+  margin: 0;
+  padding: 0;
+}
+
+.how-it-works{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+
+.howit-title__box{
+  width: 350px;
+}
+
+.how-it__title{
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1.78571px;
+  color: #495567;
+  margin: 0;
+  padding: 0;
+}
+
+.first-wrapper{
+  width: 730px;
+  background-color: #F2F5F9;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 40px;
+  margin-bottom: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.first-wrapper:hover{
+  background-color: #FFF4DF;
+}
+
+.btn{
+  display: block;
+  border: none;
+  margin-right: 42px;
+  background-color: #F2F5F9;
+  background-image: url(../../../img/bottom-string.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.first-wrapper__title{
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+  margin: 0;
+  padding: 0;
+}

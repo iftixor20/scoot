@@ -1,0 +1,43 @@
+/* SECTION SIGN UP */
+
+
+.sign-up{
+  padding-top: 102px;
+  padding-bottom: 102px;
+  background-color: #495567;
+  background-image: url(../../../img/last-section-bgimg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: calc(50% + 400px) 170px;
+}
+
+.sign-up__contents{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sign-up__heading{
+  width: 415px;
+}
+
+.sign-up__title{
+  font-family: "Space Mono", monospace, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.sign-up__list{
+  list-style: none;
+  display: flex;
+}
+
+.sign-up__item{
+  margin-right: 18px;
+}

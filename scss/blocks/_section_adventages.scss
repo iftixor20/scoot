@@ -61,12 +61,12 @@
 .box-one__text{
   font-style: normal;
   font-weight: normal;
+  margin-bottom: 100px;
   font-size: 15px;
   line-height: 25px;
   color: #939CAA;
   margin: 0;
   padding: 0;
-  margin-bottom: 40px;
 }
 
 .box-one__link{
@@ -78,6 +78,7 @@
   line-height: 25px;
   text-align: center;
   color: #FFFFFF;
+  margin-top: 100px;
   padding: 14px 44px;
   background-color: #FCB72B;
   text-decoration: none;
@@ -105,7 +106,7 @@
   height: 160px;
   top: 290px;
   left: -109px;
-  background-image: url(../../img/box-one-oval.svg);
+  // background-image: url(../../img/box-one-oval.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
