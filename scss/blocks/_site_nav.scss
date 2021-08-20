@@ -1,0 +1,187 @@
+// site nav
+
+.site-header{
+  background-color: #FFFFFF;
+}
+
+.site-nav__contents{
+  display: flex;
+  align-items: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.site-nav__contents-img {
+  margin-right: 40px;
+}
+
+.site-header__list{
+  display: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  margin-left: 58px;
+  transform: translateX(1200px);
+}
+
+.open-header .site-header__list {
+  transform: translateX(0)
+}
+
+.open-header .site-nav__open-btn {
+  background-image: url("../../img/ganburger-bg.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.site-header__link {
+  font-family: "Space Mono", monospace, sans-serif;
+  width: 46px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  margin-left: 32px;
+  transition: color 0.3s ease;
+}
+
+.site-header__link:hover{
+  color: #FCB72B;
+}
+
+.site-header__get-link{
+  font-family: "Space Mono", monospace, sans-serif;
+  width: 105px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #FCB72B;
+  padding: 14px 39px;
+  text-decoration: none;
+  border: 3px solid transparent;
+  transition: color 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.site-header__get-link:hover{
+  background-color: #ffffff;
+  color: #FCB72B;
+  border-color: #FCB72B;
+}
+
+.site-nav__link-box{
+  width: 186px;
+  margin-left: auto;
+}
+
+.site-nav__open-btn {
+  border: none;
+  position: relative;
+  right: 90px;
+  background-color: transparent;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .site-nav__contents {
+    margin-left: 34px;
+    margin-right: 34px;
+  }
+  .site-header__list {
+    margin: 0;
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .site-header__list, .site-nav__link-box {
+    flex-direction: column;
+    display: none;
+    background-color: #FCB72B;
+    margin-left: auto;
+  }
+
+  .site-nav__link-box {
+    display: none;
+    flex-direction: column;
+  }
+
+  .site-nav__contents-img {
+    margin-right: 0;
+  }
+
+
+  .site-header__js {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+
+  }
+
+  .header-button {
+    width: 16px;
+    height: 15px;
+    display: block;
+    background-image: url(../../img/hanburger.svg);
+    background-repeat: no-repeat;
+    border: none;
+  }
+
+  .header-section--open .header-button {
+    background-image: url(../../img/close.svg);
+    background-color: none;
+
+  }
+
+  .header-nav {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: -24px;
+    right: -24px;
+    padding: 40px 24px;
+    text-align: center;
+    height: calc(100vh - 90px);
+    background-image: linear-gradient(0deg, rgba(254, 252, 247, 0.5) 0%, #FEFCF7 55.94%);
+  }
+
+
+  .header-nav__list {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-nav__item {
+    list-style: none;
+  }
+
+  .header-nav__item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
+  .header-nav__link {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+    cursor: pointer;
+  }
+
+  .header-nav__link:active {
+    opacity: 0.6;
+  }
+}
