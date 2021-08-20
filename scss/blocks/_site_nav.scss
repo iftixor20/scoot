@@ -89,32 +89,35 @@
 
 @media only screen and (max-width: 360px) {
   .site-header__list, .site-nav__link-box {
-    flex-direction: column;
+    // flex-direction: column;
     display: none;
-    background-color: #FCB72B;
-    margin-left: auto;
+    // background-color: #FCB72B;
+    // margin-left: auto;
   }
 
   .open-header .site-header__list {
-    transform: translateX(0)
+    display: none;
+    // transform: translateX(0)
   }
 
   .open-header .site-nav__open-btn {
-    background-image: url("../../img/ganburger-bg.png");
-    background-repeat: no-repeat;
-    background-position: center right;
+    display: none;
+    // background-image: url("../../img/ganburger-bg.png");
+    // background-repeat: no-repeat;
+    // background-position: center right;
   }
 
   .site-nav__open-btn {
-    border: none;
-    position: relative;
-    right: 90px;
-    background-color: transparent;
+    display: none;
+    // border: none;
+    // position: relative;
+    // right: 90px;
+    // background-color: transparent;
   }
 
   .site-nav__link-box {
     display: none;
-    flex-direction: column;
+    // flex-direction: column;
   }
 
   .site-nav__contents-img {
@@ -123,13 +126,14 @@
 
 
   .site-header__js {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 32px;
+    // display: none;
+    // position: relative;
+    // z-index: 1;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    // align-items: center;
+    // padding-top: 32px;
 
   }
 
@@ -145,7 +149,7 @@
   .header-section--open .header-button {
     background-image: url(../../img/close.svg);
     background-color: none;
-
+    display: none;
   }
 
   .header-nav {
@@ -160,8 +164,12 @@
     background-image: linear-gradient(0deg, rgba(254, 252, 247, 0.5) 0%, #FEFCF7 55.94%);
   }
 
+  .site-header__list {
+    display: none;
+  }
 
   .header-nav__list {
+    display: none;
     margin: 0;
     padding: 0;
   }
